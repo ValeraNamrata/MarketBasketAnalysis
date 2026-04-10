@@ -319,15 +319,3 @@ Ensure mlxtend is installed in the active virtual environment: `pip install mlxt
 
 **FileNotFoundError on any script**  
 Confirm that all previous scripts have completed successfully and that the `data/` folder structure matches the layout described above.
-
-**Instacart rules drop to very few at lift 1.5**  
-This is expected and documented. Instacart's high individual category support values (Fresh Produce 75.8%, Dairy and Eggs 67.7%) inflate co-occurrence rates. The supplementary lift 1.5 filter intentionally documents this effect -- use lift 1.2 as the primary comparison threshold.
-
----
-
-## Contact
-
-Namrata Valera  
-CS 703 Applied Data Science  
-King Graduate School, Monroe University  
-Winter 2026
