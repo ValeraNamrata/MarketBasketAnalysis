@@ -26,9 +26,6 @@ pip install pandas mlxtend matplotlib
 ## Raw Data Requirements
 
 Before running any script, download and place the raw data files in the following locations. The scripts expect this exact folder structure.
-##Data Links:
-Dunnhumby - https://www.kaggle.com/code/haijie/dunnhumby-exploratory-data-analysis/input
-Instacart - https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis
 ```
 data/
   raw/
@@ -42,8 +39,8 @@ data/
       departments.csv            <- department labels
 ```
 
-**Dunnhumby source:** The Complete Journey dataset (available via Dunnhumby / Kaggle)  
-**Instacart source:** Instacart Online Grocery Shopping Dataset 2017 (available via Kaggle)
+**Dunnhumby source:** The Complete Journey dataset (available via Dunnhumby / Kaggle)  https://www.kaggle.com/code/haijie/dunnhumby-exploratory-data-analysis/input
+**Instacart source:** Instacart Online Grocery Shopping Dataset 2017 (available via Kaggle) https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis
 
 ---
 
